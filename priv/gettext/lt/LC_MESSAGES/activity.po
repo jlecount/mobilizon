@@ -3,14 +3,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-21 17:15+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-21 18:07+0000\n"
+"Last-Translator: Vaclovas Intas <Gateway_31@protonmail.com>\n"
+"Language-Team: Lithuanian <https://weblate.framasoft.org/projects/mobilizon/"
+"activity/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.14.1\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.9.2\n"
 
 ## This file is a PO Template file.
 ##
@@ -21,66 +25,65 @@ msgstr ""
 ## Run "mix gettext.extract" to bring this file up to
 ## date. Leave "msgstr"s empty as changing them here as no
 ## effect: edit them in PO (.po) files instead.
-
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:14
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:12
 #, elixir-autogen, elixir-format
 msgid "%{member} accepted the invitation to join the group."
-msgstr ""
+msgstr "%{member} priėmė kvietimą jungtis prie grupės."
 
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:19
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:17
 #, elixir-autogen, elixir-format
 msgid "%{member} rejected the invitation to join the group."
-msgstr ""
+msgstr "%{member} atmetė kvietimą jungtis prie grupės."
 
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:3
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "%{member} requested to join the group."
-msgstr ""
+msgstr "%{member} paprašė jungtis prie grupės."
 
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:8
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:6
 #, elixir-autogen, elixir-format
 msgid "%{member} was invited by %{profile}."
-msgstr ""
+msgstr "%{member} pakvietė %{profile}."
 
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:30
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:27
 #, elixir-autogen, elixir-format
 msgid "%{profile} added the member %{member}."
-msgstr ""
+msgstr "%{profile} pridėjo narį %{member}."
 
 #: lib/web/templates/email/activity/_discussion_activity_item.html.heex:27
 #: lib/web/templates/email/activity/_discussion_activity_item.text.eex:19
 #, elixir-autogen, elixir-format
 msgid "%{profile} archived the discussion %{discussion}."
-msgstr ""
+msgstr "%{profile} archyvavo aptarimą %{discussion}."
 
 #: lib/web/templates/email/activity/_discussion_activity_item.html.heex:3
 #: lib/web/templates/email/activity/_discussion_activity_item.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "%{profile} created the discussion %{discussion}."
-msgstr ""
+msgstr "%{profile} sukūrė aptarimą %{discussion}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:4
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:2
 #, elixir-autogen, elixir-format
 msgid "%{profile} created the folder %{resource}."
-msgstr ""
+msgstr "%{profile} sukūrė aplanką %{resource}."
 
 #: lib/web/templates/email/activity/_group_activity_item.html.heex:3
 #: lib/web/templates/email/activity/_group_activity_item.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "%{profile} created the group %{group}."
-msgstr ""
+msgstr "%{profile} sukūrė grupę %{group}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:13
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:8
 #, elixir-autogen, elixir-format
 msgid "%{profile} created the resource %{resource}."
-msgstr ""
+msgstr "%{profile} sukūrė išteklį %{resource}."
 
 #: lib/web/templates/email/activity/_discussion_activity_item.html.heex:35
 #: lib/web/templates/email/activity/_discussion_activity_item.text.eex:25
