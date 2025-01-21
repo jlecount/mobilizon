@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-21 17:15+0000\n"
-"PO-Revision-Date: 2025-01-21 18:07+0000\n"
+"PO-Revision-Date: 2025-01-21 18:54+0000\n"
 "Last-Translator: Vaclovas Intas <Gateway_31@protonmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.framasoft.org/projects/mobilizon/"
 "activity/lt/>\n"
@@ -89,118 +89,118 @@ msgstr "%{profile} sukūrė išteklį %{resource}."
 #: lib/web/templates/email/activity/_discussion_activity_item.text.eex:25
 #, elixir-autogen, elixir-format
 msgid "%{profile} deleted the discussion %{discussion}."
-msgstr ""
+msgstr "%{profile} ištrynė aptarimą %{discussion}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:76
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:40
 #, elixir-autogen, elixir-format
 msgid "%{profile} deleted the folder %{resource}."
-msgstr ""
+msgstr "%{profile} ištrynė aplanką %{resource}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:82
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:45
 #, elixir-autogen, elixir-format
 msgid "%{profile} deleted the resource %{resource}."
-msgstr ""
+msgstr "%{profile} ištrynė išteklį %{resource}."
 
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:48
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:45
 #, elixir-autogen, elixir-format
 msgid "%{profile} excluded member %{member}."
-msgstr ""
+msgstr "%{profile} ištraukė narį %{member}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:56
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:28
 #, elixir-autogen, elixir-format
 msgid "%{profile} moved the folder %{resource}."
-msgstr ""
+msgstr "%{profile} perkėlė aplanką %{resource}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:65
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:34
 #, elixir-autogen, elixir-format
 msgid "%{profile} moved the resource %{resource}."
-msgstr ""
+msgstr "%{profile} perkėlė išteklį %{resource}."
 
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:54
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:51
 #, elixir-autogen, elixir-format
 msgid "%{profile} quit the group."
-msgstr ""
+msgstr "%{profile} paliko grupę."
 
 #: lib/web/templates/email/activity/_discussion_activity_item.html.heex:19
 #: lib/web/templates/email/activity/_discussion_activity_item.text.eex:13
 #, elixir-autogen, elixir-format
 msgid "%{profile} renamed the discussion %{discussion}."
-msgstr ""
+msgstr "%{profile} pervadino aptarimą %{discussion}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:24
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:14
 #, elixir-autogen, elixir-format
 msgid "%{profile} renamed the folder from %{old_resource_title} to %{resource}."
-msgstr ""
+msgstr "%{profile} pervadino aplanką iš %{old_resource_title} į %{resource}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:39
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:21
 #, elixir-autogen, elixir-format
 msgid "%{profile} renamed the resource from %{old_resource_title} to %{resource}."
-msgstr ""
+msgstr "%{profile} pervadino išteklį iš %{old_resource_title} į %{resource}."
 
 #: lib/web/templates/email/activity/_discussion_activity_item.html.heex:11
 #: lib/web/templates/email/activity/_discussion_activity_item.text.eex:7
 #, elixir-autogen, elixir-format
 msgid "%{profile} replied to the discussion %{discussion}."
-msgstr ""
+msgstr "%{profile} atsakė į aptarimą %{discussion}."
 
 #: lib/web/templates/email/activity/_group_activity_item.html.heex:12
 #: lib/web/templates/email/activity/_group_activity_item.text.eex:7
 #, elixir-autogen, elixir-format
 msgid "%{profile} updated the group %{group}."
-msgstr ""
+msgstr "%{profile} atnaujino grupę %{group}."
 
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:42
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:39
 #, elixir-autogen, elixir-format
 msgid "%{profile} updated the member %{member}."
-msgstr ""
+msgstr "%{profile} atnaujino narį %{member}."
 
 #: lib/service/activity/renderer/event.ex:22
 #: lib/web/templates/email/activity/_event_activity_item.html.heex:3
 #: lib/web/templates/email/activity/_event_activity_item.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "The event %{event} was created by %{profile}."
-msgstr ""
+msgstr "Įvykį %{event} sukūrė %{profile}."
 
 #: lib/service/activity/renderer/event.ex:42
 #: lib/web/templates/email/activity/_event_activity_item.html.heex:21
 #: lib/web/templates/email/activity/_event_activity_item.text.eex:13
 #, elixir-autogen, elixir-format
 msgid "The event %{event} was deleted by %{profile}."
-msgstr ""
+msgstr "Įvykį %{event} ištrynė %{profile}."
 
 #: lib/service/activity/renderer/event.ex:32
 #: lib/web/templates/email/activity/_event_activity_item.html.heex:12
 #: lib/web/templates/email/activity/_event_activity_item.text.eex:7
 #, elixir-autogen, elixir-format
 msgid "The event %{event} was updated by %{profile}."
-msgstr ""
+msgstr "Įvykį %{event} atnaujino %{profile}."
 
 #: lib/web/templates/email/activity/_post_activity_item.html.heex:3
 #: lib/web/templates/email/activity/_post_activity_item.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "The post %{post} was created by %{profile}."
-msgstr ""
+msgstr "Įrašą %{post} sukūrė %{profile}."
 
 #: lib/web/templates/email/activity/_post_activity_item.html.heex:21
 #: lib/web/templates/email/activity/_post_activity_item.text.eex:13
 #, elixir-autogen, elixir-format
 msgid "The post %{post} was deleted by %{profile}."
-msgstr ""
+msgstr "Įrašą %{post} ištrynė %{profile}."
 
 #: lib/web/templates/email/activity/_post_activity_item.html.heex:12
 #: lib/web/templates/email/activity/_post_activity_item.text.eex:7
 #, elixir-autogen, elixir-format
 msgid "The post %{post} was updated by %{profile}."
-msgstr ""
+msgstr "Įrašą %{post} atnaujino %{profile}."
 
 #: lib/web/templates/email/activity/_member_activity_item.html.heex:24
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:22
