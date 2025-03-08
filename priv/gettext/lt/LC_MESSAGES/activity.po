@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-21 17:15+0000\n"
-"PO-Revision-Date: 2025-01-23 19:47+0000\n"
+"PO-Revision-Date: 2025-03-08 16:56+0000\n"
 "Last-Translator: Vaclovas Intas <Gateway_31@protonmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.framasoft.org/projects/mobilizon/"
 "activity/lt/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.1\n"
 
 ## This file is a PO Template file.
 ##
@@ -308,14 +308,14 @@ msgstr "Savaitės veiklos apžvalga serveriui %{instance}"
 #: lib/web/templates/email/activity/_comment_activity_item.text.eex:19
 #, elixir-autogen, elixir-format
 msgid "%{profile} has posted a new comment under your event %{event}."
-msgstr "%{profile} parašė naują komentarą prie jūsų įvykį %{event}."
+msgstr "%{profile} paskelbė naują komentarą apie jūsų įvykį %{event}."
 
 #: lib/service/activity/renderer/comment.ex:52
 #: lib/web/templates/email/activity/_comment_activity_item.html.heex:22
 #: lib/web/templates/email/activity/_comment_activity_item.text.eex:13
 #, elixir-autogen, elixir-format
 msgid "%{profile} has posted a new reply under your event %{event}."
-msgstr ""
+msgstr "%{profile} paskelbė naują atsakymą apie jūsų įvykį %{event}."
 
 #: lib/web/email/activity.ex:74
 #, elixir-autogen, elixir-format
