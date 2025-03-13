@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-21 17:15+0000\n"
-"PO-Revision-Date: 2025-03-08 16:56+0000\n"
+"PO-Revision-Date: 2025-03-14 03:48+0000\n"
 "Last-Translator: Vaclovas Intas <Gateway_31@protonmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.framasoft.org/projects/mobilizon/"
 "activity/lt/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: Weblate 5.10.2\n"
 
 ## This file is a PO Template file.
 ##
@@ -107,7 +107,7 @@ msgstr "%{profile} ištrynė išteklį %{resource}."
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:45
 #, elixir-autogen, elixir-format
 msgid "%{profile} excluded member %{member}."
-msgstr "%{profile} ištraukė narį %{member}."
+msgstr "%{profile} pašalino narį %{member}."
 
 #: lib/web/templates/email/activity/_resource_activity_item.html.heex:56
 #: lib/web/templates/email/activity/_resource_activity_item.text.eex:28
@@ -125,7 +125,7 @@ msgstr "%{profile} perkėlė išteklį %{resource}."
 #: lib/web/templates/email/activity/_member_activity_item.text.eex:51
 #, elixir-autogen, elixir-format
 msgid "%{profile} quit the group."
-msgstr "%{profile} paliko grupę."
+msgstr "%{profile} išėjo iš grupės."
 
 #: lib/web/templates/email/activity/_discussion_activity_item.html.heex:19
 #: lib/web/templates/email/activity/_discussion_activity_item.text.eex:13
@@ -320,122 +320,127 @@ msgstr "%{profile} paskelbė naują atsakymą apie jūsų įvykį %{event}."
 #: lib/web/email/activity.ex:74
 #, elixir-autogen, elixir-format
 msgid "Announcement for your event %{event}"
-msgstr ""
+msgstr "Skelbimas apie jūsų įvykį %{event}"
 
 #: lib/service/activity/renderer/group.ex:22
 #, elixir-autogen, elixir-format
 msgid "The group %{group} was updated by %{profile}."
-msgstr ""
+msgstr "Grupę %{group} atnaujino %{profile}."
 
 #: lib/service/activity/renderer/post.ex:46
 #, elixir-autogen, elixir-format
 msgid "The post %{post} from group %{group} was deleted by %{profile}."
-msgstr ""
+msgstr "Įrašą %{post} iš grupės %{group} ištrynė %{profile}."
 
 #: lib/service/activity/renderer/post.ex:30
 #, elixir-autogen, elixir-format
 msgid "The post %{post} from group %{group} was published by %{profile}."
-msgstr ""
+msgstr "Įrašą %{post} iš grupės %{group} paskelbė %{profile}."
 
 #: lib/service/activity/renderer/post.ex:38
 #, elixir-autogen, elixir-format
 msgid "The post %{post} from group %{group} was updated by %{profile}."
-msgstr ""
+msgstr "Įrašą %{post} iš grupės %{group} atnaujino %{profile}."
 
 #: lib/service/activity/renderer/member.ex:38
 #, elixir-autogen, elixir-format
 msgid "%{member} accepted the invitation to join the group %{group}."
-msgstr ""
+msgstr "%{member} priėmė kvietimą jungtis prie grupės %{group}."
 
 #: lib/service/activity/renderer/member.ex:46
 #, elixir-autogen, elixir-format
 msgid "%{member} joined the group %{group}."
-msgstr ""
+msgstr "%{member} prisijungė prie grupės %{group}."
 
 #: lib/service/activity/renderer/member.ex:42
 #, elixir-autogen, elixir-format
 msgid "%{member} rejected the invitation to join the group %{group}."
-msgstr ""
+msgstr "%{member} atmetė kvietimą jungtis prie grupės %{group}."
 
 #: lib/service/activity/renderer/member.ex:30
 #, elixir-autogen, elixir-format
 msgid "%{member} requested to join the group %{group}."
-msgstr ""
+msgstr "%{member} paprašė jungtis prie grupės %{group}."
 
 #: lib/service/activity/renderer/member.ex:34
 #, elixir-autogen, elixir-format
 msgid "%{member} was invited by %{profile} to group %{group}."
-msgstr ""
+msgstr "%{member} pakvietė %{profile} prie grupės %{group}."
 
 #: lib/service/activity/renderer/member.ex:50
 #, elixir-autogen, elixir-format
 msgid "%{profile} added the member %{member} to group %{group}."
-msgstr ""
+msgstr "%{profile} pridėjo narį %{member} prie grupės %{group}."
 
 #: lib/service/activity/renderer/member.ex:54
 #, elixir-autogen, elixir-format
 msgid "%{profile} approved the membership request from %{member} for group %{group}."
 msgstr ""
+"%{profile} patvirtino narystės prašymą iš %{member} dėl grupės %{group}."
 
 #: lib/service/activity/renderer/resource.ex:32
 #, elixir-autogen, elixir-format
 msgid "%{profile} created the folder %{resource} in group %{group}."
-msgstr ""
+msgstr "%{profile} sukūrė aplanką %{resource} grupėje %{group}."
 
 #: lib/service/activity/renderer/resource.ex:68
 #, elixir-autogen, elixir-format
 msgid "%{profile} deleted the folder %{resource} in group %{group}."
-msgstr ""
+msgstr "%{profile} ištrynė aplanką %{resource} grupėje %{group}."
 
 #: lib/service/activity/renderer/resource.ex:70
 #, elixir-autogen, elixir-format
 msgid "%{profile} deleted the resource %{resource} in group %{group}."
-msgstr ""
+msgstr "%{profile} ištrynė išteklį %{resource} grupėje %{group}."
 
 #: lib/service/activity/renderer/member.ex:74
 #, elixir-autogen, elixir-format
 msgid "%{profile} excluded member %{member} from the group %{group}."
-msgstr ""
+msgstr "%{profile} pašalino narį %{member} iš grupės %{group}."
 
 #: lib/service/activity/renderer/resource.ex:60
 #, elixir-autogen, elixir-format
 msgid "%{profile} moved the folder %{resource} in group %{group}."
-msgstr ""
+msgstr "%{profile} perkėlė aplanką %{resource} grupėje %{group}."
 
 #: lib/service/activity/renderer/resource.ex:62
 #, elixir-autogen, elixir-format
 msgid "%{profile} moved the resource %{resource} in group %{group}."
-msgstr ""
+msgstr "%{profile} perkėlė išteklį %{resource} grupėje %{group}."
 
 #: lib/service/activity/renderer/member.ex:78
 #, elixir-autogen, elixir-format
 msgid "%{profile} quit the group %{group}."
-msgstr ""
+msgstr "%{profile} išėjo iš grupės %{group}."
 
 #: lib/service/activity/renderer/member.ex:62
 #, elixir-autogen, elixir-format
 msgid "%{profile} rejected the membership request from %{member} for group %{group}."
-msgstr ""
+msgstr "%{profile} atmetė narystės prašymą iš %{member} dėl grupės %{group}."
 
 #: lib/service/activity/renderer/resource.ex:44
 #, elixir-autogen, elixir-format
 msgid "%{profile} renamed the folder from %{old_resource_title} to %{resource} in group %{group}."
 msgstr ""
+"%{profile} pervadino aplanką iš %{old_resource_title} į %{resource} grupėje "
+"%{group}."
 
 #: lib/service/activity/renderer/resource.ex:50
 #, elixir-autogen, elixir-format
 msgid "%{profile} renamed the resource from %{old_resource_title} to %{resource} in group %{group}."
 msgstr ""
+"%{profile} pervadino išteklį iš %{old_resource_title} į %{resource} grupėje "
+"%{group}."
 
 #: lib/service/activity/renderer/member.ex:70
 #, elixir-autogen, elixir-format
 msgid "%{profile} updated the member %{member} in group %{group}."
-msgstr ""
+msgstr "%{profile} atnaujino narį %{member} grupėje %{group}."
 
 #: lib/service/activity/renderer/resource.ex:34
 #, elixir-autogen, elixir-format
 msgid "%{profile} created the resource %{resource} in group %{group}."
-msgstr ""
+msgstr "%{profile} sukūrė išteklį %{resource} grupėje %{group}."
 
 #: lib/service/activity/renderer/discussion.ex:85
 #, elixir-autogen, elixir-format
@@ -483,34 +488,34 @@ msgstr ""
 #: lib/web/views/email_view.ex:61
 #, elixir-autogen, elixir-format
 msgid "An anonymous profile"
-msgstr ""
+msgstr "Anoniminis profilis"
 
 #: lib/web/templates/email/email_anonymous_activity.html.heex:107
 #: lib/web/templates/email/email_anonymous_activity.text.eex:14
 #, elixir-autogen, elixir-format
 msgid "%{profile} has posted a private announcement about event %{event}."
-msgstr ""
+msgstr "%{profile} paskelbė privatų skelbimą apie įvykį %{event}."
 
 #: lib/web/templates/email/email_anonymous_activity.html.heex:50
 #: lib/web/templates/email/email_anonymous_activity.text.eex:6
 #, elixir-autogen, elixir-format
 msgid "%{profile} has posted a public announcement under event %{event}."
-msgstr ""
+msgstr "%{profile} paskelbė viešą skelbimą apie įvykį %{event}."
 
 #: lib/web/templates/email/activity/_conversation_activity_item.html.heex:3
 #, elixir-autogen, elixir-format
 msgid "%{profile} mentionned you in a %{conversation}."
-msgstr ""
+msgstr "%{profile} paminėjo jus pokalbyje %{conversation}."
 
 #: lib/web/templates/email/activity/_conversation_activity_item.text.eex:1
 #, elixir-autogen, elixir-format
 msgid "%{profile} mentionned you in a conversation."
-msgstr ""
+msgstr "%{profile} paminėjo jus pokalbyje."
 
 #: lib/service/activity/renderer/conversation.ex:36
 #, elixir-autogen, elixir-format
 msgid "%{profile} replied to your message"
-msgstr ""
+msgstr "%{profile} atsakė į jūsų žinutę."
 
 #: lib/web/templates/email/activity/_conversation_activity_item.html.heex:10
 #, elixir-autogen, elixir-format
@@ -525,26 +530,30 @@ msgstr ""
 #: lib/service/activity/renderer/conversation.ex:49
 #, elixir-autogen, elixir-format
 msgid "%{profile} sent a private message about event %{event}"
-msgstr ""
+msgstr "%{profile} atsiuntė privačią žinutę apie įvykį %{event}."
 
 #: lib/service/activity/renderer/conversation.ex:23
 #, elixir-autogen, elixir-format
 msgid "%{profile} sent you a message"
-msgstr ""
+msgstr "%{profile} atsiuntė jums žinutę."
 
 #: lib/web/email/activity.ex:52
 #, elixir-autogen, elixir-format
 msgid "Informations about your event %{event}"
-msgstr ""
+msgstr "Informacijos apie jūsų įvykį %{event}"
 
 #: lib/web/templates/email/email_anonymous_activity.html.heex:118
 #: lib/web/templates/email/email_anonymous_activity.text.eex:20
 #, elixir-autogen, elixir-format
 msgid "It might give details on how to join the event, so make sure to read it appropriately."
 msgstr ""
+"Jame gali būti pateikta išsami informacija apie tai, kaip jungtis prie "
+"įvykio, todėl būtinai jį tinkamai perskaitykite."
 
 #: lib/web/templates/email/email_anonymous_activity.html.heex:156
 #: lib/web/templates/email/email_anonymous_activity.text.eex:28
 #, elixir-autogen, elixir-format
 msgid "This information is sent privately to you as a person who registered for this event. Share the informations above with other people with caution."
 msgstr ""
+"Ši informacija išsiųsta privačiai jums, kaip asmeniui, užsiregistravusiam į "
+"šį įvykį. Atsargiai bendrinkite šią informaciją su kitais asmenimis."
