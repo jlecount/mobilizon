@@ -1078,6 +1078,7 @@
   "This application will be allowed to delete events": "Esta aplicación podrá eliminar eventos",
   "This application will be allowed to delete group posts": "Esta aplicación podrá eliminar entradas de grupo",
   "This application will be allowed to delete resources in all of the groups you're a member of": "Esta aplicación podrá eliminar los recursos de todos los grupos de los que sea miembro",
+  "This application will be allowed to join and leave groups": "Esta aplicación podrá entrar y salir de grupos",
   "This application will be allowed to list and access group discussions in all of the groups you're a member of": "Esta aplicación podrá listar y acceder a los debates de grupo en todos los grupos de los que sea miembro",
   "This application will be allowed to list and access group events in all of the groups you're a member of": "Esta aplicación podrá listar y acceder a los eventos de grupo de todos los grupos de los que sea miembro",
   "This application will be allowed to list and access group todo-lists in all of the groups you're a member of": "Esta aplicación podrá listar y acceder a las listas de tareas de todos los grupos de los que sea miembro",
