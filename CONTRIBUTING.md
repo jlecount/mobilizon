@@ -1,1 +1,1 @@
-Please read our full contributing document at [https://docs.joinmobilizon.org/contribute/](https://docs.joinmobilizon.org/contribute/)
+Please read our full [contributing document](https://docs.mobilizon.org/4.%20Contribute/).
