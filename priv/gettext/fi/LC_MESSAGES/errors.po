@@ -8,15 +8,15 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-12 00:15+0000\n"
-"Last-Translator: Taru Luojola <taru.luojola@posteo.net>\n"
+"PO-Revision-Date: 2025-02-12 21:01+0000\n"
+"Last-Translator: Ville Ranki <ville.ranki@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.framasoft.org/projects/mobilizon/"
 "backend-errors/fi/>\n"
 "Language: fi\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: lib/mobilizon/discussions/discussion.ex:68
 #, elixir-autogen
@@ -807,7 +807,8 @@ msgstr "Kirjaudu ensin sisään"
 #: lib/graphql/resolvers/member.ex:118
 #, elixir-autogen, elixir-format
 msgid "You can't accept this invitation with this profile."
-msgstr "Et voi hyväksyä kutsua tällä profiililla."
+msgstr ""
+"Et voi hyväksyä kutsua tällä profiililla. Valitse toinen profiili käyttöön."
 
 #: lib/graphql/resolvers/member.ex:139
 #, elixir-autogen, elixir-format
