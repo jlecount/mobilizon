@@ -13,7 +13,7 @@ Mobilizon is an app that uses:
   * [Absinthe](https://absinthe-graphql.org/) on the backend
   * [VueApollo](https://apollo.vuejs.org/) on the front-end.
   
-[UI](https://en.wikipedia.org/wiki/User_interface) is handled with [Tailwind](https://tailwindcss.com/) and [Oruga](https://oruga.io/).
+[UI](https://en.wikipedia.org/wiki/User_interface) is handled with [Tailwind](https://tailwindcss.com/) and [Oruga](https://oruga-ui.com/).
 
 ## Structure of sources
 
